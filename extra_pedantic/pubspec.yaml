@@ -1,0 +1,8 @@
+name: extra_pedantic
+version: 1.0.0
+description: >-
+  The Dart analyzer settings and best practices used internally at I.C.N.H GmbH.
+homepage: https://github.com/icnh/flutter_packages/extra_pedantic
+
+environment:
+    sdk: '>= 2.0.0 < 3.0.0'
