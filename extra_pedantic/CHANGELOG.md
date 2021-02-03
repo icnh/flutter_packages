@@ -1,3 +1,7 @@
+## 1.0.2
+
+- update rules to linter version 0.1.129 of Dart 2.12
+
 ## 1.0.1
 
 - deactivate `diagnostic_describe_all_properties`
