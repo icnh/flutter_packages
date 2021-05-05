@@ -76,7 +76,7 @@ linter:
     - leading_newlines_in_multiline_strings
     - library_names
     - library_prefixes
-    - library_private_types_in_public_api
+    # - library_private_types_in_public_api #<- false positives in StatefulWidget
     # - lines_longer_than_80_chars #<- we use 120
     - list_remove_unrelated_type
     - literal_only_boolean_expressions
@@ -139,7 +139,7 @@ linter:
     - provide_deprecation_message
     # - public_member_api_docs #<- would be nice but too much work :-(
     - recursive_getters
-    - require_trailing_commas
+    # - require_trailing_commas #<- haven't made up my mind yet, to be discussed
     - sized_box_for_whitespace
     - slash_for_doc_comments
     - sort_child_properties_last
