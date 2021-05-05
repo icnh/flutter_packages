@@ -24,6 +24,14 @@ It mainly follows the style of the Flutter team and otherwise incorporates [Effe
             - "<filepath>"
 
 
+4. Please consider strongly to use strong mode:
+
+        analyzer:
+          strong-mode:
+            implicit-casts: false
+            implicit-dynamic: false
+
+
 ## Customization
 
 You might want to also add these rules:
