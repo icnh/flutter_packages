@@ -1,3 +1,7 @@
+## 1.2.0
+
+- update rules to linter version 1.18.0 of Dart 2.16
+
 ## 1.1.0
 
 - update rules to linter version 1.4.0 of Dart 2.14
