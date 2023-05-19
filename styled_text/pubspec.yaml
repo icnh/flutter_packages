@@ -1,17 +1,14 @@
 name: styled_text
 description: A widget to easily create `RichText` from a string
 version: 0.1.0
-authors:
- - Stefan Matthias Aust <sma@icnh.de>
-homepage: https://bitbucket.org/icnh/flutter_packages/styled_text/
+repository: https://github.com/icnh/flutter_packages/tree/master/styled_text
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.19.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  flutter_lints: ^2.0.1
