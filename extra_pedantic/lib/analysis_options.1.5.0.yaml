@@ -1,4 +1,4 @@
-# based on <https://dart-lang.github.io/linter/lints/options/options.html> as of May 18, 2023
+# based on <https://dart-lang.github.io/linter/lints/options/options.html> as of Aug 18, 2023
 linter:
   rules:
     - always_declare_return_types
@@ -100,6 +100,8 @@ linter:
     - no_literal_bool_comparisons
     - no_logic_in_create_state
     - no_runtimeType_toString
+    - no_self_assignments
+    - no_wildcard_variable_uses
     - non_constant_identifier_names
     - noop_primitive_operations
     - null_check_on_nullable_type_parameter
